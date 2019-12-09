@@ -31,3 +31,5 @@ $(OBJDIR)/%.o: $(SRCDIR)/%.cpp
 clean:
 	rm -rf $(OBJS)
 	rm -rf $(TARGET)
+	rm -rf .depend
+	rm -rf
